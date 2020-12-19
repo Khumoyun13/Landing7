@@ -657,11 +657,16 @@ footer .container {
         width: fit-content;
     }
 
-    .header-subtitle, .friends-title, .world-title {
+    .header-subtitle,
+    .friends-title,
+    .world-title {
         font-size: 50px;
     }
 
-    .header-subtext, .friends-subtext, .world-subtext, .comments-subtext  {
+    .header-subtext,
+    .friends-subtext,
+    .world-subtext,
+    .comments-subtext {
         font-size: 19px;
     }
 
@@ -683,7 +688,9 @@ footer .container {
         width: 840px;
     }
 
-    .header-subtitle, .friends-title, .world-title {
+    .header-subtitle,
+    .friends-title,
+    .world-title {
         font-size: 38px;
     }
 
@@ -695,7 +702,11 @@ footer .container {
         font-size: 19px;
     }
 
-    .header-subtext, .friends-subtext, .world-subtext, .comments-subtext, .footer-subtext   {
+    .header-subtext,
+    .friends-subtext,
+    .world-subtext,
+    .comments-subtext,
+    .footer-subtext {
         font-size: 16px;
     }
 
@@ -716,7 +727,7 @@ footer .container {
         font-size: 45px;
     }
 
-    .app-subtext{
+    .app-subtext {
         font-size: 18px;
     }
 
@@ -773,11 +784,13 @@ footer .container {
         padding-bottom: 50px;
     }
 
-    .friends-img, .travel-img {
+    .friends-img,
+    .travel-img {
         width: 100%;
     }
 
-    .friends-title, .travel-title {
+    .friends-title,
+    .travel-title {
         font-size: 35px;
     }
 
@@ -786,8 +799,8 @@ footer .container {
     }
 
     footer .container {
-       flex-wrap: wrap;
-       justify-content: center;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .footer-subtext {
@@ -809,7 +822,11 @@ footer .container {
         flex-direction: column-reverse;
     }
 
-    .header-subtext, .friends-subtext, .world-subtext, .travel-subtext, .app-subtext {
+    .header-subtext,
+    .friends-subtext,
+    .world-subtext,
+    .travel-subtext,
+    .app-subtext {
         width: 80%;
         margin-left: auto;
         margin-right: auto;
@@ -848,7 +865,8 @@ footer .container {
         text-align: center;
     }
 
-    .world-title, .travel-title {
+    .world-title,
+    .travel-title {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -866,7 +884,7 @@ footer .container {
     }
 
     .travel-img {
-        margin-top: 80px ;
+        margin-top: 80px;
     }
 
     .app-title {
@@ -897,7 +915,8 @@ footer .container {
         width: 440px;
     }
 
-    .header-li, .header-li a {
+    .header-li,
+    .header-li a {
         font-size: 14px;
     }
 
@@ -915,7 +934,9 @@ footer .container {
         margin: 0 auto;
     }
 
-    .header-img, .friends-img, .travel-img {
+    .header-img,
+    .friends-img,
+    .travel-img {
         width: 300px;
     }
 }
@@ -925,7 +946,10 @@ footer .container {
         width: 340px;
     }
 
-    .header-text-part, .friends-text-part, .world-text-part, .travel-text-part {
+    .header-text-part,
+    .friends-text-part,
+    .world-text-part,
+    .travel-text-part {
         width: 100%;
     }
 
@@ -933,7 +957,8 @@ footer .container {
         margin-left: 0;
     }
 
-    .world-title, .travel-title {
+    .world-title,
+    .travel-title {
         font-size: 35px;
     }
 
@@ -979,4 +1004,159 @@ footer .container {
     .footer-link {
         font-size: 14px;
     }
+
+    .world-title,
+    .travel-title {
+        text-align: center;
+    }
+
+    .world-img-wrapper img {
+        width: 150px;
+    }
+
+    .world-img {
+        height: 390px;
+    }
+
+    .circle {
+        width: 80px;
+        height: 80px;
+    }
+
+    .triangle {
+        border-left: 15px solid #5454D4;
+        border-top: 8px solid transparent;
+        border-bottom: 8px solid transparent;
+        top: 35px;
+        left: 35px;
+    }
 }
+
+@media (max-width: 360px) {
+    .container {
+        width: 240px;
+    }
+
+    .header-title, .friends-title, .world-title, .travel-title {
+        font-size: 18px;
+    }
+
+    .nav-link {
+        font-size: 12px;
+        padding: 12px 16px;
+    }
+
+    .header-subtitle {
+        font-size: 24px;
+    }
+
+    .header-subtext, .comments-subtext, .commenter, .stars, .friends-subtext, .friends-li, .world-subtext, .travel-subtext, .app-subtext {
+        font-size: 12px;
+    }
+
+    .comment {
+        margin: 15px 0;
+    }
+
+    .header-input-wrapper {
+        width: 100%;
+    }
+
+    .header-link {
+        font-size: 12px;
+        padding: px;
+    }
+
+    .header-input {
+        width: 100px;
+    }
+
+    .number {
+        font-size: 15px;
+        width: 5px;
+        height: 5px;
+    }
+
+    .app-title {
+        font-size: 22px;
+    }
+
+    .download img {
+        width: 150px;
+    }
+
+    .footer-subtext {
+        font-size: 13px;
+    }
+
+    .footer-link {
+        font-size: 11px;
+    }
+
+    .world-img-wrapper img {
+        width: 100px;
+    }
+
+    .world-img {
+        height: 270px;
+    }
+
+    .travel-img, .friends-img, .header-img {
+        width: 210px;
+    }
+
+    .friends-li {
+        width: 240px;
+    }
+
+    .friends-li-info-subtitle {
+        font-size: 14px;
+    }
+
+    .number {
+        font-size: 10px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 260px) {
+    .container {
+        width: 140px;
+    }
+
+    .header-subtitle, .friends-title {
+        font-size: 16px;
+    }
+
+    .app-title {
+        font-size: 16px;
+    }
+
+    .header-input-wrapper {
+        flex-direction: column;
+        height: 80px;
+        text-align: center;
+    }
+
+    .header-input {
+        margin-top: -20px;
+    }
+
+    .header-img, .friends-img, .travel-img {
+        width: 140px;
+    }
+
+    .friends-li {
+        flex-direction: column;
+        width: 140px;   
+    }
+
+    .number {
+        margin-bottom: 25px;
+    }
+
+    .footer-ul {
+        flex-direction: column;
+    }
+    
+}  
